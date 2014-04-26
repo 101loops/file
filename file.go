@@ -11,7 +11,7 @@ func Exists(path string) bool {
 	return !os.IsNotExist(err)
 }
 
-// Return the path to the current user's home directory.
+// HomeDir returns the path to the current user's home directory.
 func HomeDir() string {
 	if runtime.GOOS == "windows" {
 		home := os.Getenv("HOMEDRIVE") + os.Getenv("HOMEPATH")
