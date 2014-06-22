@@ -3,11 +3,14 @@ file [![Build Status](https://secure.travis-ci.org/101loops/file.png)](https://t
 
 This Go package provides useful utilities for dealing with files.
 
-### Installation
-`go get github.com/101loops/file`
 
-### Documentation
+## Installation
+```bash
+go get github.com/101loops/file
+```
+
+## Documentation
 [godoc.org](http://godoc.org/github.com/101loops/file)
 
-### License
+## License
 MIT (see LICENSE).
